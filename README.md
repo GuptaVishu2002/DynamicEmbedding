@@ -67,7 +67,7 @@ done
 ```
 The script will convert the structure files into atom level encodins one-by-one (batch-wise conversion has not been implemented yet).  Example: `abc.vasp` will produce `abc_1.csv` to `abc_9.csv`. 
 
-Once you have converted all the structure files in the Input-Property file `id_prop.csv` using the script file, proceed to [`GNN`](./GNN) for model training.
+Once you have converted all the structure files in the Input-Property file `id_prop.csv` using the script file, use Roost [here](https://github.com/CompRhys/roost)  for model training.
 
 ## Using Pre-Trained Model
 All the trained models are available at [Zenodo](https://doi.org/10.5072/zenodo.1222572), and these models can be used to make predictions directly.
