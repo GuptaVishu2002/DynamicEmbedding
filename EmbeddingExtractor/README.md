@@ -1,6 +1,6 @@
-# ALIGNNTL: Feature Extraction
+# ALIGNNTL: Embedding Extraction
 
-This directory contains information on how to perform feature extraction using ALIGNN.
+This directory contains information on how to perform embedding extraction using ALIGNN.
 
 ### Instructions
 
