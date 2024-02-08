@@ -67,8 +67,7 @@ class CompositionData(Dataset):
             input id for the material
         """
         cry_id, composition, target = self.df.iloc[idx]
-        poscar_path = '/data/vgf3011/alignntldata/jid/'
-        #poscar_path = '../../structgnn/expt1_alignn/'
+        poscar_path = 'structure_path/'
         atoms = Atoms.from_poscar(poscar_path + composition)
         formula = atoms.composition.reduced_formula
         elements, weights = parse_roost(formula)
@@ -77,7 +76,6 @@ class CompositionData(Dataset):
         if str(composition).endswith(sstring):
             comp_name = str(composition)[:-(len(sstring))]
         feat_path = 'embedding_path/'
-        #feat_path = '../../../alignn_new3/data/expt1/x/'
         df_feat = pd.read_csv(feat_path + comp_name + '_{}.csv'.format(self.fea_num))
         #assert len(elements) != 1, f"cry-id {cry_id} [{composition}] is a pure system"
         try:
