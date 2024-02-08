@@ -2,7 +2,6 @@
 
 This repository contains the code for Dynamic Embedding framework to predict materials properties. The code provides the following functions:
 
-* Train a Roost model using dynamic embedding on a given dataset.
 * Use a pre-trained ALIGNN model to perform dynamic extraction on a given target dataset.
 
 ## Installation Requirements
