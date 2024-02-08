@@ -1,8 +1,6 @@
 # DynamicEmbedding
 
-This repository contains the code for Dynamic Embedding framework to predict materials properties. The code provides the following functions:
-
-* Use a pre-trained ALIGNN model to perform dynamic extraction on a given target dataset.
+This repository contains the code for Dynamic Embedding framework to predict materials properties. The code provides a pre-trained ALIGNN model to perform dynamic extraction on a given target dataset.
 
 ## Installation Requirements
 
