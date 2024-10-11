@@ -47,7 +47,7 @@ The user requires following files in order to perform embedding extraction
 * Input-Property file - contains name of the structure file and its corresponding property value (format: `.csv`)
 * Pre-trained model - model trained using ALIGNN using any specific materials property (format: `.zip`)
 
-We have provided the an example of Sturcture files (`POSCAR` files) and Input-Property file (`id_prop.csv`) in [`examples`](examples). Download the pre-trained model trained on large datasets from <a href="https://figshare.com/projects/ALIGNN_models/126478">here</a>. 
+We have provided the an example of Sturcture files (`POSCAR` files) and Input-Property file (`id_prop.csv`) in [`examples`](EmbeddingExtractor/data). Download the pre-trained model trained on large datasets from <a href="https://figshare.com/projects/ALIGNN_models/126478">here</a>. 
 
 Now, in order to perform feature extraction, add the details regarding the model in the `all_models` dictionary inside the `train.py` file as described below:
 ```
