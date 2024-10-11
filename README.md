@@ -68,7 +68,7 @@ The script will convert the structure files into atom level encodins one-by-one 
 Once you have converted all the structure files in the Input-Property file `id_prop.csv` using the script file, use Roost [here](https://github.com/CompRhys/roost)  for model training.
 
 ## Using Pre-Trained Model
-Pre-trained models are available at [Zenodo](https://figshare.com/projects/ALIGNN_models/126478), and these models can be used to make extract dynamic embedding directly.
+Pre-trained models are available at [Zenodo](https://figshare.com/projects/ALIGNN_models/126478), and these models can be used to extract dynamic embedding directly.
 
 To perform prediction using the original ALIGNN model, please refer to https://github.com/usnistgov/alignn
 
